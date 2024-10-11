@@ -1,3 +1,3 @@
-# TraversalCoreProje
+# Traversal Project
 
 
