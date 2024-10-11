@@ -1,6 +1,9 @@
 # Traversal Project
 
-![Ekran görüntüsü 2024-10-11 200435](https://github.com/user-attachments/assets/ecbb0875-d99d-4644-ba4d-07fd58224f19)
+![Screenshot 2024-10-11 at 20-07-41 ](https://github.com/user-attachments/assets/322d2606-1b5e-4370-a85f-fc4a1e772aae)
+
+![Screenshot 2024-10-11 at 20-08-03 ](https://github.com/user-attachments/assets/9592f4f8-dd26-4441-a539-299b17046778)
+
 
 ![Screenshot 2024-10-11 at 18-57-52 ](https://github.com/user-attachments/assets/6e55adac-a99f-47f7-9412-8cd7a8597ace)
 
@@ -28,9 +31,10 @@
 
 ![Screenshot 2024-10-11 at 19-58-07 ](https://github.com/user-attachments/assets/194072fe-63cd-41f8-80cb-4a818ef8fed8)
 
-![Screenshot 2024-10-11 at 20-07-41 ](https://github.com/user-attachments/assets/322d2606-1b5e-4370-a85f-fc4a1e772aae)
+![Ekran görüntüsü 2024-10-11 200435](https://github.com/user-attachments/assets/ecbb0875-d99d-4644-ba4d-07fd58224f19)
 
-![Screenshot 2024-10-11 at 20-08-03 ](https://github.com/user-attachments/assets/9592f4f8-dd26-4441-a539-299b17046778)
+
+
 
 
 
