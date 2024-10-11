@@ -1,0 +1,56 @@
+﻿@model List<Reservation>
+@{
+    ViewData["Title"] = "MyApprovalReservation";
+    Layout = "~/Areas/Member/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>Onay Bekleyen Rezervasyonlar</h1>
+@if (!Model.Any())
+{
+<div class="container mt-5">
+        <h4>You do not have a reservation awaiting approval.</h4>
+</div>
+}
+else
+{
+<table class="table table-bordered">
+    <tr>
+            <th>#</th>
+            <th>Location</th>
+            <th>Person</th>
+            <th>Reservation Date</th>
+            <th>Status</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>@item.ReservationId</td>
+            <td>@item.Destination.City</td>
+            <td>@item.PersonCount</td>
+            <td>@item.ReservastionDate</td>
+            <td>@item.status</td>
+        </tr>
+    }
+</table>
+}
+<table class="table table-bordered"> 
+    <tr> 
+        <th>#</th>
+        <th>Lokasyon</th>
+        <th>Kişi Sayısı</th>
+        <th>Rezervasyon Tarihi</th>
+        <th>Durum</th>
+    </tr> 
+    @foreach (var item in Model)
+    { 
+
+        <tr> 
+            <td>@item.ReservationId</td>
+            <td>@item.Destination.City</td>
+            <td>@item.PersonCount</td>
+            <td>@item.ReservastionDate</td>
+            <td>@item.status</td>
+        </tr>
+    }
+</table>

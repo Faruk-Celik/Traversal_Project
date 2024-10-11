@@ -1,0 +1,35 @@
+﻿@using EntityLayer.Concrete
+@model List<AppUser>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name Surname</th>
+        <th>UserName</th>
+        <th>Mail</th>
+        <th>Delete</th>
+        <th>Edit</th>
+        <th>Comments</th>
+        <th>Tour History</th>
+
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name @item.Surname.ToUpper()</td>
+            <td>@item.UserName</td>
+            <td>@item.Mail</td>
+            <td><a href="#" class="btn btn-outline-danger">Delete</a></td>
+            <td><a href="#" class="btn btn-outline-success">Edit</a></td>
+            <td><a href="#" class="btn btn-outline-info">Comments</a></td>
+            <td><a href="/Admin/User/ReservationUser/@item.Id" class="btn btn-outline-dark">Tour History</a></td>
+        </tr>
+    }
+</table>
+<a href="/Login/SignUp/" class="btn btn-outline-primary">Save New User</a>

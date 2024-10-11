@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+
+
+<html lang="en"
+      class="light-style layout-menu-fixed"
+      dir="ltr"
+      data-theme="theme-default"
+      data-assets-path="../assets/"
+      data-template="vertical-menu-template-free">
+
+@await Component.InvokeAsync("_AdminLayoutHeadComponentPartial")
+<body>
+
+    <div class="layout-wrapper layout-content-navbar">
+        <div class="layout-container">
+            <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+                @await Component.InvokeAsync("_AdminLayoutAppBrandDemoComponentPartial")
+                <div class="menu-inner-shadow"></div>
+                @await Component.InvokeAsync("_AdminLayoutSideBarComponentPartial")
+            </aside>
+            <div class="layout-page">
+
+                @await Component.InvokeAsync("_AdminLayoutNavbarComponentPartial")
+
+                <div class="content-wrapper">
+                    <div class="container-xxl flex-grow-1 container-p-y">
+                        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></span></h4>
+                        @RenderBody()
+                    </div>
+     
+                    @await Component.InvokeAsync("_AdminLayoutFooterComponentPartial")
+
+                    <div class="content-backdrop fade"></div>
+                </div>
+            </div>
+        </div>
+        <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    @await Component.InvokeAsync("_AdminLayoutScriptComponentPartial")
+</body>
+</html>
+

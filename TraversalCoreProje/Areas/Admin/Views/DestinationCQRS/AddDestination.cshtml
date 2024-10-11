@@ -1,0 +1,22 @@
+﻿@model CreateDestinationCommand
+@{
+    ViewData["Title"] = "AddDestination";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Add Routes</h2>
+<form method="post">
+    <label>city</label>
+    <input type="text" asp-for="city" class="form-control" />
+    <br />
+    <label>day night</label>
+    <input type="text" asp-for="daynight" class="form-control" />
+    <br />
+    <label>price</label>
+    <input type="text" asp-for="price" class="form-control" />
+    <br />
+    <label>capacity</label>
+    <input type="text" asp-for="capacity" class="form-control" />
+    <br />
+    <button class="btn btn-outline-dark">Add</button>
+</form>
+

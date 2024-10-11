@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "_UILayout";
+}
+
+<!doctype html>
+<html lang="zxx">
+@await Component.InvokeAsync("_UIHeadLayoutPartialComponents")
+<body>
+    @await Component.InvokeAsync("_UINavbarLayoutPartialComponentPartial")
+    @RenderBody()
+    @await Component.InvokeAsync("_UIFooterLayoutPartialComponent")
+    @await Component.InvokeAsync("_UIScriptsLayoutComponentPartial")
+</body>
+</html>

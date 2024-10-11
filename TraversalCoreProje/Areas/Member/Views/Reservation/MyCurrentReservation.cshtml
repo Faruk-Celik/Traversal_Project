@@ -1,0 +1,37 @@
+﻿@model List<Reservation>
+@{
+    ViewData["Title"] = "MyCurrentReservation";
+    Layout = "~/Areas/Member/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>Aktif rezervasyonlarım</h1> 
+@if(!Model.Any())
+{
+    <div class="container mt-5">
+        <h4>You do not have an active reservation.</h4>
+    </div>
+}  
+else 
+{
+<table class="table table-bordered">
+    <tr>
+            <th>#</th>
+            <th>Location</th>
+            <th>Person</th>
+            <th>Reservation Date</th>
+            <th>Status</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>@item.ReservationId</td>
+            <td>@item.Destination.City</td>
+            <td>@item.PersonCount</td>
+            <td>@item.ReservastionDate</td>
+            <td>@item.status</td>
+        </tr>
+    }
+</table>
+}
+

@@ -1,0 +1,55 @@
+﻿@using EntityLayer.Concrete 
+@model List<Guide>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<style> 
+    img{ 
+        border-radius:50px;
+    }
+</style>
+<h1>Guide List</h1>
+
+<table class="table table-bordered"> 
+    <tr> 
+        <th>#</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Edit</th>
+    </tr> 
+    @foreach (var item in Model)
+    { 
+        <tr>
+        <td>@item.GuideId</td>
+        <td><img src="@item.Image" height="100" widht="50"/></td>
+        <td>@item.Name</td>
+        <td>@item.Description</td>
+
+            @{
+                if(item.Status==true)
+                {
+                    <td><a href="/Admin/Guide/ChangeToTrue/@item.GuideId" class="btn btn-outline-warning">Passive</a></td>
+                } 
+                else
+                {
+                    <td><a href="/Admin/Guide/ChangeToFalse/@item.GuideId" class="btn btn-outline-info">Active </a></td>
+                    
+                }
+            }
+       
+            <td><a href="#" class="btn btn-outline-succsess">Edit</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Guide/AddGuide/" class="btn btn-outline-primary">Yeni Rehber Girişi</a> 
+
+
+
+
+
+
+
+                     

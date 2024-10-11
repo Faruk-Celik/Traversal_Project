@@ -1,0 +1,19 @@
+﻿@model TraversalCoreProje.Areas.Admin.Models.AccountViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post"> 
+    <label>Sender</label>
+    <input type="text" asp-for="SenderId" class="form-control" /> 
+    <br>
+    <label>Receiver</label>
+    <input type="text" asp-for="ReciverId" class="form-control" />
+    <br>
+    <label>Amount</label>
+    <input type="text" asp-for="Amount" class="form-control" />
+    <br> 
+    <button class="btn btn-outline-dark">Send</button>
+</form>
+

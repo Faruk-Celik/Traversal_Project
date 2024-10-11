@@ -1,0 +1,30 @@
+﻿@model IEnumerable<TraversalCoreProje.Areas.Admin.Models.BookingHotelSearchViewModel.Result>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<h1>Booking Hotel Reservation Page</h1>
+
+<h3>Searched City: Berlin/Germany</h3>
+
+<table class="table table-striped"> 
+    <tr> 
+        <th>#</th>
+        <th>Hotel Name</th>
+        <th>Hotel Score</th>
+        <th>Hotel Comment</th>
+        <th>Details</th>
+    </tr> 
+    @foreach (var item in Model)
+    {
+        count++;   
+        <tr> 
+            <td>@count</td>
+            <td>@item.name</td>
+            <td>@item.reviewScore</td>
+            <td>@item.reviewScoreWord</td>
+        </tr>
+    }
+</table>
