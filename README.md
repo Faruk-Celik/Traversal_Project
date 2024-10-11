@@ -1,8 +1,9 @@
 <h3>Traversal Project</h3>
 <h5>Main Purpose of Project</h5>
-<p>Users register to the system, list the required products and add them to the cart.
-
-The project I developed using ASP.NET Core 6.0 Web API and MVC performs all CRUD operations via the API and these operations are consumed on the MVC side. Entity Framework Code First was used for dynamic database management.
+This project aims to create a website for a travel agency. It has three panels:
+Member Panel: where users manage their reservations and get information about tours;
+Admin Panel: where all CRUD operations and vacation options are managed;
+Showcase Panel: where users can view vacation routes and price information..
 Used technologies</p>
 <h5>Used Techs</h5>
 <ul>
@@ -15,7 +16,7 @@ Used technologies</p>
   <li> Html</li>
   <li> Css</li>
   <li> Javascript</li>
-  <li> Bootstrap</li>
+  <li> Bootstrap</li> 
 </ul>
 <h5>Technicial Specifications</h5>
 <ul>
