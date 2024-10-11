@@ -4,29 +4,25 @@ This project aims to create a website for a travel agency. It has three panels:
 Member Panel: where users manage their reservations and get information about tours;
 Admin Panel: where all CRUD operations and vacation options are managed;
 Showcase Panel: where users can view vacation routes and price information..
-Used technologies</p>
-<h5>Used Techs</h5>
+<p>Used technologies</p>
 <ul>
   <li> Asp.Net Core 5.0</li>
-  <li> Asp.Net Web API</li>
   <li> MSSQL</li>
-  <li> Entity Framework Code First</li>
-  <li> Identity</li>
-  <li> Swagger</li>
+  <li> PostgreSQL</li>
+  <li> SignalR</li>
+  <li> AJAX </li>
+  <li> Mapper</li>
   <li> Html</li>
   <li> Css</li>
   <li> Javascript</li>
   <li> Bootstrap</li> 
-</ul>
-<h5>Technicial Specifications</h5>
-<ul>
-<li> MSSQL</li>
-<li> Asp.Net Core 6.0</li>
-<li> Entity Framework LINQ</li>
-<li> Repository Design Pattern</li>
-<li> Dependency injection</li>
-<li> Web API</li>
-<li> Swagger</li>
+  <li> Identity</li>
+  <li> N-Tier Architecture</li>
+  <li> Repository Design Pattern </li>
+  <li> CQRS & Mediator Design Pattern </li>
+  <li> UnitOfWork Design Pattern </li>
+  <li> Logging</li>
+  <li> Serialization</li>
 </ul>
 
 <h2>Showcase Panel</h2>
