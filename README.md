@@ -1,5 +1,7 @@
 # Traversal Project
 
+Home
+
 ![Screenshot 2024-10-11 at 20-07-41 ](https://github.com/user-attachments/assets/322d2606-1b5e-4370-a85f-fc4a1e772aae)
 
 ![Screenshot 2024-10-11 at 20-08-03 ](https://github.com/user-attachments/assets/9592f4f8-dd26-4441-a539-299b17046778)
@@ -17,6 +19,9 @@
 
 ![Screenshot 2024-10-11 at 19-53-24 ](https://github.com/user-attachments/assets/67e9d1ef-5f25-438d-8fd7-e41537dc5fb6)
 
+Sneat
+
+![Screenshot 2024-10-11 at 19-21-46 ](https://github.com/user-attachments/assets/866cbecd-4fd6-4541-bb5c-2ddc6ca05286)
 
 
 
@@ -29,7 +34,8 @@
 
 ![Screenshot 2024-10-11 at 19-13-49 ](https://github.com/user-attachments/assets/522b3d1f-9553-4f82-a0ce-b29145b9f546)
 
-![Screenshot 2024-10-11 at 19-21-46 ](https://github.com/user-attachments/assets/866cbecd-4fd6-4541-bb5c-2ddc6ca05286)
+login
+
 
 ![Screenshot 2024-10-11 at 19-57-55 Traversal Guest Login](https://github.com/user-attachments/assets/4b8d8d59-7bdb-4d3a-96e5-c8da5b43d731)
 
